@@ -1,0 +1,323 @@
+CODEBOOK
+
+"Subject"
+  -identification number for subjects
+
+"Activity"
+  -specifies  of one of six activity types:
+   WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,
+   SITTING, STANDING, LAYING
+ 
+"time.BodyAcc.mean.X"
+   -mean time domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances 
+
+"time.BodyAcc.mean.Y"
+   -mean time domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAcc.mean.Z"
+   -mean time domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAcc.std.X"
+   -standard deviation of time domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances 
+
+"time.BodyAcc.std.Y"
+   -standard deviation of time domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAcc.std.Z"
+   -standard deviation of time domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.GravityAcc.mean.X"
+   -mean time domain signals for sensor acceleration
+    (gravitational component)
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.GravityAcc.mean.Y"
+   -mean time domain signals for sensor acceleration
+    (gravitational component)
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.GravityAcc.mean.Z"
+   -mean time domain signals for sensor acceleration
+    (gravitational component)
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.GravityAcc.std.X"
+   -standard deviation of time domain signals for sensor acceleration
+    (gravitational component)
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances 
+
+"time.GravityAcc.std.Y"
+   -standard deviation of time domain signals for sensor acceleration
+    (gravitational component)
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.GravityAcc.std.Z"
+   -standard deviation of time domain signals for sensor acceleration
+    (gravitational component)
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAccJerk.mean.X"
+   -mean time domain signals for deriverd linear acceleration
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances 
+
+"time.BodyAccJerk.mean.Y"
+   -mean time domain signals for deriverd linear acceleration
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAccJerk.mean.Z"
+   -mean time domain signals for deriverd linear acceleration
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAccJerk.std.X"
+   -standard deviation of time domain signals for deriverd linear acceleration
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAccJerk.std.Y"
+   -standard deviation of time domain signals for deriverd linear acceleration
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAccJerk.std.Z"
+   -standard deviation of time domain signals for deriverd linear acceleration
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyro.mean.X"
+   -mean time domain signals for deriverd angular velocity
+    along X dimension in radians/second
+    averaged across  identical Subject-Activity instances 
+
+"time.BodyGyro.mean.Y"
+   -mean time domain signals for deriverd angular velocity
+    along Y dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyro.mean.Z"
+   -mean time domain signals for deriverd angular velocity
+    along Z dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyro.std.X"
+   -standard deviation time domain signals for deriverd angular velocity
+    along X dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyro.std.Y"
+   -standard deviation time domain signals for deriverd angular velocity
+    along Y dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyro.std.Z"
+   -standard deviation time domain signals for deriverd angular velocity
+    along Z dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyroJerk.mean.X"
+   -mean time domain signals for deriverd angular velocity
+    along X dimension in radians/second
+    averaged across  identical Subject-Activity instances 
+
+"time.BodyGyroJerk.mean.Y"
+   -mean time domain signals for deriverd angular velocity
+    along Y dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyroJerk.mean.Z"
+   -mean time domain signals for deriverd angular velocity
+    along Z dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyroJerk.std.X"
+   -standard deviation time domain signals for deriverd angular velocity
+    along X dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyroJerk.std.Y"
+   -standard deviation time domain signals for deriverd angular velocity
+    along Y dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyGyroJerk.std.Z"
+   -standard deviation time domain signals for deriverd angular velocity
+    along Z dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"time.BodyAccMag.mean"
+    - combined magnitude of the X, Y, and Z time.BodyAcc.mean measurements
+
+"time.BodyAccMag.std"
+    - combined magnitude of the X, Y, and Z  time.BodyAcc.std measurements
+
+"time.GravityAccMag.mean"
+    - combined magnitude of the X, Y, and Z  time.GravityAcc.mean measurements
+
+"time.GravityAccMag.std"
+    - combined magnitude of the X, Y, and Z  time.GravityAcc.std measurements
+
+"time.BodyAccJerkMag.mean"
+    - combined magnitude of the X, Y, and Z  time.BodyAccJerk.mean measurements
+
+"time.BodyAccJerkMag.std"
+    - combined magnitude of the X, Y, and Z  time.BodyAccJerk.std measurements
+
+"time.BodyGyroMag.mean"
+    - combined magnitude of the X, Y, and Z  time.BodyGyro.mean measurements
+
+"time.BodyGyroMag.std"
+    - combined magnitude of the X, Y, and Z  time.BodyGyro.std measurements
+
+"time.BodyGyroJerkMag.mean"
+    - combined magnitude of the X, Y, and Z  time.BodyGyroJerk.mean measurements
+
+"time.BodyGyroJerkMag.std"
+    - combined magnitude of the X, Y, and Z  time.BodyGyroJerk.std measurements
+
+
+"freq.BodyAcc.mean.X"
+   -mean freq domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances 
+
+"freq.BodyAcc.mean.Y"
+   -mean freq domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyAcc.mean.Z"
+   -mean freq domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyAcc.std.X"
+   -standard deviation of freq domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances 
+
+"freq.BodyAcc.std.Y"
+   -standard deviation of freq domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyAcc.std.Z"
+   -standard deviation of freq domain signals for sensor acceleration
+    (total acceleration minus gravitational component)
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyAccJerk.mean.X"
+   -mean freq domain signals for deriverd linear acceleration
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances 
+
+"freq.BodyAccJerk.mean.Y"
+   -mean freq domain signals for deriverd linear acceleration
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyAccJerk.mean.Z"
+   -mean freq domain signals for deriverd linear acceleration
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyAccJerk.std.X"
+   -standard deviation of freq domain signals for deriverd linear acceleration
+    along X dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyAccJerk.std.Y"
+   -standard deviation of freq domain signals for deriverd linear acceleration
+    along Y dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyAccJerk.std.Z"
+   -standard deviation of freq domain signals for deriverd linear acceleration
+    along Z dimension in standard gravity units 'g'
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyGyro.mean.X"
+   -mean freq domain signals for deriverd angular velocity
+    along X dimension in radians/second
+    averaged across  identical Subject-Activity instances 
+
+"freq.BodyGyro.mean.Y"
+   -mean freq domain signals for deriverd angular velocity
+    along Y dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyGyro.mean.Z"
+   -mean freq domain signals for deriverd angular velocity
+    along Z dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyGyro.std.X"
+   -standard deviation freq domain signals for deriverd angular velocity
+    along X dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyGyro.std.Y"
+   -standard deviation freq domain signals for deriverd angular velocity
+    along Y dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+"freq.BodyGyro.std.Z"
+   -standard deviation freq domain signals for deriverd angular velocity
+    along Z dimension in radians/second
+    averaged across  identical Subject-Activity instances
+
+
+"freq.BodyAccMag.mean"
+    - combined magnitude of the X, Y, and Z freq.BodyAcc.mean measurements
+
+"freq.BodyAccMag.std"
+    - combined magnitude of the X, Y, and Z  freq.BodyAcc.std measurements
+
+"freq.BodyAccJerkMag.mean"
+    - combined magnitude of the X, Y, and Z  freq.BodyAccJerk.mean measurements
+
+"freq.BodyAccJerkMag.std"
+    - combined magnitude of the X, Y, and Z  freq.BodyAccJerk.std measurements
+
+"freq.BodyGyroMag.mean"
+    - combined magnitude of the X, Y, and Z  freq.BodyGyro.mean measurements
+
+"freq.BodyGyroMag.std"
+    - combined magnitude of the X, Y, and Z  freq.BodyGyro.std measurements
+
+"freq.BodyGyroJerkMag.mean"
+    - combined magnitude of the X, Y, and Z  freq.BodyGyroJerk.mean measurements
+
+"freq.BodyGyroJerkMag.std"
+    - combined magnitude of the X, Y, and Z  freq.BodyGyroJerk.std measurements
